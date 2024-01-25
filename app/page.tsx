@@ -1,9 +1,14 @@
-import SwitchComponent from "./components/switch/page";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-900">
-      <SwitchComponent />
+    <main className="flex min-h-screen flex-col items-start justify-center gap-5 bg-gray-900 p-24 text-gray-50">
+      <Link href="/components/switch" className="underline">
+        Switch Component →
+      </Link>
+      <Link href="/components/apple-selector-group" className="underline">
+        Apple Selector Group Component →
+      </Link>
     </main>
   );
 }

@@ -7,7 +7,16 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      apple: "SF Pro Text",
+    },
+    extend: {
+      colors: {
+        "apple-blue": "#0077ed",
+        "apple-blue-hover": "#306fdb",
+        "apple-blue-focus": "#0071e3",
+      },
+    },
   },
   plugins: [],
 };
