@@ -37,7 +37,7 @@ export default function SwitchComponent() {
   });
 
   return (
-    <div className="font-apple flex min-h-screen flex-col items-center  justify-center p-24 text-gray-900">
+    <div className="font-apple flex min-h-screen flex-col items-center justify-center p-24 text-gray-900">
       <form
         action={(formData) => {
           let data = Object.fromEntries(formData);

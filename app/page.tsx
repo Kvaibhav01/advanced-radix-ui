@@ -9,6 +9,9 @@ export default function Home() {
       <Link href="/components/apple-selector-group" className="underline">
         Apple Selector Group Component →
       </Link>
+      <Link href="/components/ios-slider" className="underline">
+        iOS Slider Component →
+      </Link>
     </main>
   );
 }
