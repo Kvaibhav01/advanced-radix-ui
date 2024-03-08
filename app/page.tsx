@@ -12,6 +12,9 @@ export default function Home() {
       <Link href="/components/ios-slider" className="underline">
         iOS Slider Component →
       </Link>
+      <Link href="/components/animated-toast" className="underline">
+        Animated Toast Component →
+      </Link>
     </main>
   );
 }
