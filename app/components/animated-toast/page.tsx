@@ -44,7 +44,7 @@ export default function AnimatedToast() {
                 className="flex items-center justify-between rounded border border-gray-700 bg-gray-800 px-6 py-4 text-sm font-medium focus-visible:outline focus-visible:outline-[2px] focus-visible:outline-offset-2 focus-visible:outline-sky-400"
               >
                 <Toast.Description>{toast.message}</Toast.Description>
-                <Toast.Close className="rounded text-gray-600 hover:text-gray-200 focus-visible:text-gray-200 focus-visible:outline focus-visible:outline-[2px] focus-visible:outline-offset-2 focus-visible:outline-sky-500">
+                <Toast.Close className="rounded text-gray-400 hover:text-gray-200 focus-visible:text-gray-200 focus-visible:outline focus-visible:outline-[2px] focus-visible:outline-offset-2 focus-visible:outline-sky-500">
                   <XMarkIcon className="size-5" />
                 </Toast.Close>
               </motion.li>
